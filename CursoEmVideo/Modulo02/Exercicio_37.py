@@ -8,10 +8,10 @@ op = int(input('''
 -> '''))
 
 if op == 1:
-    print('Em binário o valor é {0:b}'.format(op))
+    print('{} Em binário o valor é {}'.format(num, bin(num)[2:]))
 elif op == 2:
-    print('Em Octal o valor é {}'.format(op, 'o'))
+    print('{} Em Octal o valor é {}'.format(num, oct(num)[2:]))
 elif op == 3:
-    print('Em Hexadecimal o valor é {}'.format(op, 'x'))
+    print('{} Em Hexadecimal o valor é {}'.format(num, hex(num)[2:]))
 else:
     print('Algo deu errado!')   
