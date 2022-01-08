@@ -1,17 +1,17 @@
-print('=' * 30)
-print('Minha casa, sua vida! :)')
-print('=' * 30)
+num = int(input('Digite um número: '))
+op = int(input('''
+    \033[32m Para qual base de numerica você deseja converter?\033[m
+[1] Binário
+[2] Octal
+[3] Hexadecimal
 
-casa = float(input('Digite o valor da casa: '))
-salario = float(input('Digite o valor do seu salário: '))
-tempo = int(input('Quantidade de anos que deseja pagar: '))
+-> '''))
 
-prestacao = casa / (tempo * 12) 
-porcentagem = (salario * 30 / 100)
-
-if prestacao < porcentagem:
-    print('Parabéns, sua compra foi aprovada.')
-elif prestacao > porcentagem:
-    print('Sinto muito, mas sua compra foi negada.')
+if op == 1:
+    print('Em binário o valor é {0:b}'.format(op))
+elif op == 2:
+    print('Em Octal o valor é {}'.format(op, 'o'))
+elif op == 3:
+    print('Em Hexadecimal o valor é {}'.format(op, 'x'))
 else:
-    print('Algo deu errado!')
+    print('Algo deu errado!')   
