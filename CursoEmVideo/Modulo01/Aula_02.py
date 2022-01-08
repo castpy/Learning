@@ -1,0 +1,1 @@
+# Nessa aula não foi necessario usar o VScode

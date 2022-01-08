@@ -1,0 +1,12 @@
+frase = 'Marcus Castilho'
+print(frase[9])
+print(frase[7:15])
+print(frase[:5])
+print(len(frase))
+print(frase.count('o'))
+print(frase.find('Mar'))
+print(frase.replace('Marcus', 'Vinicius'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
