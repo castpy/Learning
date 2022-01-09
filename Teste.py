@@ -24,15 +24,19 @@ def imc():
         print('{:.1f} Você está com obesidade mórbida'.format(imc))
 #==========================
 #Conteúdo da tela
+text1 = Label(tela, text='Seu peso')
+text1.place(x=60, y=5)
 ed1 = Entry(tela)
 ed1.place(x=60, y=25)
+text2 = Label(tela, text='Sua altura')
+text2.place(x=60, y=70)
 ed2 = Entry(tela)
 ed2.place(x=60, y=90)
 
 bt = Button(tela, text='SOMAR', width=20, command=imc)
 bt.place(x=45, y=130)
 
-lb = Label(tela, text='Label1')
+lb = Label(tela, text='Resultado')
 lb.place(x=20, y=180)
 #============================
 tela.mainloop()
