@@ -10,18 +10,18 @@ def imc():
     peso = float(ed1.get())
     altura = float(ed2.get())
     imc = peso / (altura ** 2)
-    lb['text'] = imc
+    
 
     if imc < 18.5:
-        print('{:.1f} Você está a baixo do peso!'.format(imc))
+        lb['text'] = '{:.1f} Você está a baixo do peso!'.format(imc)
     elif imc >= 18.5 and imc <= 25:
-        print('{:.1f} Você está com o peso ideal!'.format(imc))
+        lb['text'] = '{:.1f} Você está com o peso ideal!'.format(imc)
     elif imc >= 25 and imc <= 30:
-        print('{:.1f} Você está com sobrepeso'.format(imc))
+        lb['text'] = '{:.1f} Você está com sobrepeso'.format(imc)
     elif imc >= 30 and imc <= 40:
-        print('{:.1f} Você está com obesidade'.format(imc))
+        lb['text'] = '{:.1f} Você está com obesidade'.format(imc)
     elif imc > 40:
-        print('{:.1f} Você está com obesidade mórbida'.format(imc))
+        lb['text'] = '{:.1f} Você está com obesidade mórbida'.format(imc)
 #==========================
 #Conteúdo da tela
 text1 = Label(tela, text='Seu peso')
