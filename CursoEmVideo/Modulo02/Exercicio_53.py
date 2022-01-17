@@ -10,3 +10,4 @@ if inv == jun:
 else:
     print(jun, inv)
     print('Não é um palindromo')
+    

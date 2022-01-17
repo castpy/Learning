@@ -15,3 +15,4 @@ elif anoAlistamento > anoAtual:
     print('Faltam {} anos para você se alistar'.format(18 - suaIdade))
 else:
     print('Algo deu errado!')
+    

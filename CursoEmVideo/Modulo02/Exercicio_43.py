@@ -12,3 +12,4 @@ elif imc >= 30 and imc <= 40:
     print('{:.1f} Você está com obesidade'.format(imc))
 elif imc > 40:
     print('{:.1f} Você está com obesidade mórbida'.format(imc))
+

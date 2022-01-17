@@ -10,3 +10,4 @@ elif media >= 7:
     print('Parabéns, você está aprovado! Sua média foi de {}'.format(media))
 else:
     print('Algo deu errado!')
+    

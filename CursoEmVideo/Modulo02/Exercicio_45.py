@@ -49,3 +49,4 @@ elif cpu == 2: #CPU - TESOURA
         print('Deu empate!')
     else:
         print('Escolha inválida')
+

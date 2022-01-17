@@ -15,3 +15,4 @@ elif prestacao > porcentagem:
     print('Sinto muito, mas sua compra foi negada.')
 else:
     print('Algo deu errado!')
+    

@@ -9,3 +9,4 @@ elif idade == 20:
     print('Sua categoria é SÊNIOR')
 elif idade > 20:
     print('Sua categoria é MASTER')
+

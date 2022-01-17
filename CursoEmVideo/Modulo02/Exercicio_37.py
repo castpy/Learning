@@ -15,3 +15,4 @@ elif op == 3:
     print('{} Em Hexadecimal o valor é {}'.format(num, hex(num)[2:]))
 else:
     print('Algo deu errado!')   
+    
