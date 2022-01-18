@@ -1,2 +1,2 @@
 # Projetos de Aula
- Projetos de aula de Python do **curso em vídeo**. Resolvi refazer os cursos que já fiz e postarei aqui, de acordo com o curso de Git e Github!
+Esse repositório tem o intuito de tornar público todos os conteúdos que já consumi em toda a minha carreira como aprendiz!
