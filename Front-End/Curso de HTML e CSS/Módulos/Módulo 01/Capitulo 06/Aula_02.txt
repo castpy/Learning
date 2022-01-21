@@ -1,2 +1,5 @@
 Formatos de imagens
 Na maior parte das vezes, usamos JPEG e PNG.
+
+JPEG = Alta compactação e baixa qualidade
+PNG = Baixa compactação e alta qualidade
