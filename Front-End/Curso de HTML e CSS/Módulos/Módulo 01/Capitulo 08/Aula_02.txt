@@ -1,0 +1,4 @@
+            Formatação de textos
+
+vimos italico (semantico <em> e não semantico <i>)
+vimos negrito (semantico <strong> e não semantico <b>)
