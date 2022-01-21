@@ -1,1 +1,9 @@
 Como mudar o favicon?
+
+1º busque por um png pequeno. Recomendo o site: https://www.flaticon.com/ ou o https://favicon.io
+
+2º use o Gimp para editar.
+
+3º exporte a imagem com a extenção .ico
+
+4º  Em cima do title (não é regra), dentro do <head/>, digite "link favicon".
