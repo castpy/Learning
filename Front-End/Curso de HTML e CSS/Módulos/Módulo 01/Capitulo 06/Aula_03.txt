@@ -1,0 +1,8 @@
+O tamanho das imagens realmente importa?
+
+Sim! Geralmente é usado o tamanho de 1500px de largura e a altura tem que ser proporcional.
+
+Uma boa opção open source é o Gimp.
+
+Sua resolução tambem importa! Geralmente use uma resolução de 50 pixels no eixo X e 50 pixels no eixo Y
+
