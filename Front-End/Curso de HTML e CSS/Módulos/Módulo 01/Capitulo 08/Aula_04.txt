@@ -1,0 +1,10 @@
+                Citações e códigos
+
+code = <code> ótima para ler codigos escritos no conteúdo
+podemos usar a tag <pre> para considerar os espaçamentos dos cógidos
+
+<pre>
+    <code>
+        seu código aqui
+    </code>
+</pre>
