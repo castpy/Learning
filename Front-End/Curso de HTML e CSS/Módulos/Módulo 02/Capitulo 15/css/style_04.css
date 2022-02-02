@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.subtitulo {
+    color: gray;
+}
+
+a {
+    background-color: rgba(138, 138, 138, 0.226);
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: rgb(167, 49, 49);
+}
+
+a::before {
+    content: '[link] ';
+    color: rgb(153, 152, 152);
+}
+
+a::after {
+    content: ' [link]';
+    color: rgb(153, 152, 152);
+}
