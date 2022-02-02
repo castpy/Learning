@@ -1,0 +1,31 @@
+h1#principal {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.divInicial {
+    border: 1px solid black;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: yellow;
+    color: black;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
