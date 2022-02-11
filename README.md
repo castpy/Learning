@@ -12,8 +12,6 @@
   - [x] HTML5 e CSS3 - Módulo - 01
   - [x] HTML5 e CSS3 - Módulo - 02
   - [ ] HTML5 e CSS3 - Módulo - 03
-  - [ ] HTML5 e CSS3 - Módulo - 04
-  - [ ] HTML5 e CSS3 - Módulo - 05
 
   <p align="left">[Back-end]</p>
   
