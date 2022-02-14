@@ -35,3 +35,8 @@ print(lanche)
 # Há uma função chamada list() que podemos usar no range() para gerar uma lista com os valores definidos
 # Ex:
 # valores = list(range(4,11)) -> Isso irá gerar uma lista com os valores 4...10, cada um com os indices de 0..6
+
+valores = [0,1,2,3]
+
+for c, v in enumerate(valores):
+    print(f'Achei o valor {c} no indice {v}!')
