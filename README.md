@@ -28,7 +28,7 @@
 
   <p align="left">[Back-end]</p>
   
-  - [ ] Python - Numpy
+  - [x] Python - Numpy
   - [ ] Python - Pandas
   - [ ] Python - Vizualização de dados
   - [ ] Python - Estatísticas 
