@@ -18,26 +18,3 @@
 </div>
 
 <hr>
-
-#### Danki Code
-
-<div align="left">
-
-  <p align="left">[Full Stack Web]</p>
-  
-  <h3>Full Stack Web</h3>
- 
-  - [ ] HTML5
-  - [ ] CSS3
-  - [ ] JS
-  - [ ] PHP7
-  - [ ] PYTHON
-  - [ ] NODE_JS
-  - [ ] ANGULAR_JS
-  - [ ] VUE_JS
-  - [ ] REACT_JS
-  - [ ] MYSLQ
-  - [ ] SEO, Analytics e Google WebMaster Tools
-  - [ ] Web Services e API
-  - [ ] BOOTSTRAP
-  - [ ] UX e UI
