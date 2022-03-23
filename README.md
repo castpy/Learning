@@ -7,36 +7,37 @@
 ### Curso em Vídeo
 
 <div align="left">
-  <p align="left">[Front-end]</p>
   
   - [x] HTML5 e CSS3 - Módulo - 01
   - [x] HTML5 e CSS3 - Módulo - 02
-  - [ ] HTML5 e CSS3 - Módulo - 03
 
   <p align="left">[Back-end]</p>
   
   - [x] Python 3 - Mundo 01
   - [x] Python 3 - Mundo 02
-  - [ ] Python 3 - Mundo 03
 </div>
 
 <hr>
 
-#### Udemy
+#### Danki Code
 
 <div align="left">
 
-  <p align="left">[Back-end]</p>
+  <p align="left">[Full Stack Web]</p>
   
-  - [x] Python - Numpy
-  - [ ] Python - Pandas
-  - [ ] Python - Vizualização de dados
-  - [ ] Python - Estatísticas 
-  - [ ] Python - Estatísticas: Regreção Linear
-  - [ ] Python - Modelos preditivos
-  - [ ] Python - Classificação: Técnicas avançadas de ML
-  - [ ] Python - Apreendizagem não supervisionada
-  - [ ] Python - Visão computacional: YOLO
-  - [ ] Python - Processamento de linguagem natual (PLN)
-  - [ ] Python - Estatísticas 
-</div>
+  <h3>Full Stack Web</h3>
+ 
+  - [ ] HTML5
+  - [ ] CSS3
+  - [ ] JS
+  - [ ] PHP7
+  - [ ] PYTHON
+  - [ ] NODE_JS
+  - [ ] ANGULAR_JS
+  - [ ] VUE_JS
+  - [ ] REACT_JS
+  - [ ] MYSLQ
+  - [ ] SEO, Analytics e Google WebMaster Tools
+  - [ ] Web Services e API
+  - [ ] BOOTSTRAP
+  - [ ] UX e UI
