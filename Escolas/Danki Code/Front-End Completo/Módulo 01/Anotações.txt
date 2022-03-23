@@ -1,6 +1,0 @@
-Plano de apredizagem para este módulo:
-
-1 - Dominar o HTML
-2 - Dominar o CSS
-3 - Dominar o JS
-
