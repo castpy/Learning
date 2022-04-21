@@ -13,6 +13,12 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: 700;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead, tfoot{
             color: white;
             border:1px solid black;
@@ -23,43 +29,47 @@
             text-align: center;
             border:1px solid black;
         }
+        .numeros{
+            text-align: end;
+        }
     </style>
 </head>
 <body>
     <h1>Tabela Grande</h1>
     <table>
+        <caption>Regiões do Brasil</caption>
         <thead>
             <tr>
-                <th>Região</th>
-                <th>População</th>
+                <th scope="col">Região</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Região Sudeste</td>
-                <td>89 632 912</td>
+                <td class="numeros">89 632 912</td>
             </tr>
             <tr>
                 <td>Região Nordeste</td>
-                <td>57 667 842</td>
+                <td class="numeros">57 667 842</td>
             </tr>
             <tr>
                 <td>Região Sul</td>
-                <td>30 402 587</td>
+                <td class="numeros">30 402 587</td>
             </tr>
             <tr>
                 <td>Região Norte</td>
-                <td>18 906 962</td>
+                <td class="numeros">18 906 962</td>
             </tr>
             <tr>
                 <td>Região Centro-Oeste</td>
-                <td>16 707 336</td>
+                <td class="numeros">16 707 336</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>271.564.255</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numeros"><strong>271.564.255</strong></td>
             </tr>
         </tfoot>
     </table>
