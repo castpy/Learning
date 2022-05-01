@@ -1,7 +1,4 @@
-let dataHoraAtual = new Date();
-    console.log(dataHoraAtual)
-
-function dataHoraAgora(){
+function dataHoraAgora(textoEntrada){
     let data = new Date();
     
     let hora = data.getHours();
@@ -9,7 +6,7 @@ function dataHoraAgora(){
     let sec = data.getSeconds();
 
     let horaFormatada = hora + ':' + min + ":" + sec;
-    console.log(horaFormatada);
+    console.log(horaFormatada + " : " + textoEntrada);
 }
 
-dataHoraAgora();
+dataHoraAgora('BRASIL')
