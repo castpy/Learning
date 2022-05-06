@@ -10,6 +10,15 @@
             background: rgb(15, 98, 223);
             font: normal 18pt Arial;
             color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .bloco02{
+            color: white;
+            width: 400px;
+            height: 50px;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -17,13 +26,16 @@
     <h1>Primeiros passos com DOM</h1>
     <p>Resultado</p>
     <p id="p2">Teste a mais</p>
-    <div class="bloco02">Clique em mim</div>
+    <button onclick="msg()" class="bloco02">Clique em mim</button>
 
     <script>
         var p1 = window.document.getElementsByTagName('p')[0]
         p1.style.color = 'black'
         window.document.getElementById('p2').style.color = 'yellow'
         window.document.getElementsByClassName('bloco02')[0].style.background = 'green'
+        function msg(){
+            window.alert("Olá, Mundo!")
+        }
     </script>
 </body>
 </html>
