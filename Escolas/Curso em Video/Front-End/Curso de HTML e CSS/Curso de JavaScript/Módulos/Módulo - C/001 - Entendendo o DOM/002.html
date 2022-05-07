@@ -17,8 +17,12 @@
     <title>DOM - EVENTOS</title>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">Interaja...</div>
+    <div id="area">Interaja...</div>
     <script>
+        var a = document.getElementById("area")
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrou)
+        a.addEventListener('mouseout', saiu)
         function clicar(){
             var a = window.document.getElementById('area')
             a.style.background = 'green'
