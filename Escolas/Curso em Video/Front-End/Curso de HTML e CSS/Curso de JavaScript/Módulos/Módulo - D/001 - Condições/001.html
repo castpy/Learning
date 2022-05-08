@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAM</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            font: normal 20pt Arial;
+            background-color: rgb(0, 153, 255);
+        }
+        input{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    <input type="number" name="velocidade" id="velocidade">
+    <input type="button" onclick="multa()" value="Verificar">
+    <section id="resultado"></section>
+
+    <script>
+        async function multa(){
+            let velocidade = window.document.getElementById("velocidade")
+            let resultado = window.document.getElementById("resultado")
+            
+            if (velocidade.value > 60){
+                resultado.innerHTML = `Você está a cima do limite de velocidade! <br> Sua velocidade é: ${velocidade.value}`
+            }else{
+                alert("Dirija com segurança!")
+            }
+        }
+    </script>
+</body>
+</html>
