@@ -18,3 +18,5 @@ const grupoA = nomes.slice(0, nomes.length/2)
 const grupoB = nomes.slice(nomes.length/2)
 console.log(`Na turma atual, temos dois grupos! Grupo A: ${grupoA} e Grupo B: ${grupoB}`)
 
+
+//
